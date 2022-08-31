@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1rem;
+    background: rgb(228, 225, 220);
+}
+
+.page-container {
+    display: grid;
+    padding: 0 15rem;
+    border: 1px solid red
+}
+#hero a {
+    text-decoration: none;
+    color: black;
+    padding: 0 2rem;
+}
+
+.hero-header {
+    text-align: center;
+    background-color: rgb(202, 155, 37);
+    padding: 1rem;
+}
+
+#hero .nav-link:hover {
+    background-color: brown;
+    padding: 1rem;
+    color: rgb(202, 155, 37);
+}
+
+.hero-content {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
