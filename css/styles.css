@@ -17,6 +17,7 @@ img {
 section h1{
     font-size: 4rem;
 }
+
 .page-container {
     display: grid;
     padding: 0 15rem;
@@ -29,6 +30,7 @@ section h1{
 /* ................................................................. */
 
 .hero-content {
+    position: relative;
     height: 90vh;
     display: flex;
     justify-content: space-around;
@@ -91,6 +93,7 @@ section h1{
 }
 
 .hero-btn {
+    text-decoration: none;
     padding: 1rem 2rem;
     background-color: rgb(222, 214, 194);
     color: brown;
@@ -99,7 +102,6 @@ section h1{
     position: relative;
     top: 4rem;
     left: 10rem;
-    border: .2rem solid black;
     border-radius: 2rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -113,7 +115,6 @@ section h1{
     cursor: pointer;
     position: relative;
     top: 4rem;
-    left: 10rem;
     border: none;
     border-radius: 2rem;
     box-shadow: rgb(202, 155, 37) 0px 5px 15px;
@@ -123,6 +124,7 @@ section h1{
 /* start comment line 2 */
 
 #about { 
+    position: relative;
     background-color: rgb(202, 155, 37);
     margin: 0 -15rem;
     padding: 1rem 15rem;  
@@ -140,7 +142,6 @@ section h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid red;
     padding: 1rem;
 }
 
@@ -150,27 +151,34 @@ section h1{
 }
 
 .about-descriptions {
-    background-color: antiquewhite;
-    border-radius: 5rem;
     padding: 1rem;
     margin: 0 0 0 8rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .about-texts {
+    background-color: antiquewhite;
+    border: 2px solid brown;
+    border-radius: 2rem;
     font-size: 1.4rem;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    padding: 0 2rem 1rem;
+    padding: 2rem; 
 }
 
-
-.bold {
+.skills {
+    margin: 2rem 0;
     background-color: brown;
-    font-size: 2rem;
-    display: block;  
+    border-radius: 2rem;
+    border: 2px solid antiquewhite;
+}
+.bold {
+    font-size: 1.4rem;
+    font-weight: 800; 
+    width: 34rem;
+    padding: 1rem 0 0 1rem;
+    border-bottom: 2px solid ;
+    
 }
 .skills-content {
     margin: 1rem;
@@ -185,3 +193,137 @@ section h1{
 .skills-img {
     width: 5rem;
 }
+/* ****************************************** */
+
+#info { 
+    position: relative;
+    background-color: rgb(202, 155, 37);
+    margin: 0 -15rem;
+    padding: 2rem 15rem;  
+}
+.info-title {
+    padding: 3rem 1rem 1rem;
+    color: brown;
+    line-height: 4.5rem;
+    
+}
+.info-title span {
+    font-size: 7rem;
+    display: block;
+}
+.info-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.notice {
+    width: 40rem;
+    padding: 2rem;
+    font-size: 1.4rem;  
+}
+
+
+.notice a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+.notice a:hover {
+    text-decoration: none;
+    color: brown
+}
+
+/* ******************    */
+
+.long {
+    position: absolute;
+    top: 2315px;
+    right: 6rem;
+    width: 12rem;
+    z-index: 80;
+}
+
+#contacts {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    border: .2rem solid brown;
+    border-right: none;
+}
+.contacts-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.contacts-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2;
+    padding: 1rem;
+    margin-right: 4rem;
+}
+
+.message {
+    padding: 1rem;
+    margin: 1rem;
+    width: 25rem;
+    border-radius: 1rem;
+    border: 2px solid brown;
+}
+
+.message:hover {
+    padding: 1rem;
+    margin: 1rem;
+    width: 25rem;
+    border-radius: 1rem;
+    border: 2px solid antiquewhite;
+}
+
+.fname, .email,.form-btn {
+    display: block;
+    margin: 1rem;
+    width: 25rem;
+    height:3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid brown;
+}
+.fname:hover, .email:hover {
+    display: block;
+    margin: 1rem;
+    width: 25rem;
+    height:3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid antiquewhite;
+}
+
+.form-btn {
+    background-color: black;
+    color: antiquewhite;
+    width: 10rem;
+    margin: 0 30%;
+    border: 2px solid brown;
+}
+
+.form-btn:hover {
+    background-color: antiquewhite;
+    color:black;
+    width: 10rem;
+    margin: 0 30%;
+    border: 2px solid rgb(202, 155, 37);
+}
+
+/* ************** */
+
+.page-footer {
+    background: black;
+    color: brown;
+    text-align: center;
+    padding: 1rem;
+}
+
