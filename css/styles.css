@@ -7,36 +7,181 @@
 html, body {
     font-family:'Courier New', Courier, monospace;
     font-size: 1rem;
-    background: rgb(228, 225, 220);
+    background: antiquewhite;;
 }
 
+img {
+    width: 25rem;
+}
+
+section h1{
+    font-size: 4rem;
+}
 .page-container {
     display: grid;
     padding: 0 15rem;
     border: 1px solid red
 }
-#hero a {
-    text-decoration: none;
-    color: black;
-    padding: 0 2rem;
-}
 
-.hero-header {
-    text-align: center;
-    background-color: rgb(202, 155, 37);
-    padding: 1rem;
+.inline-icon {
+    font-size: 1.2rem;
 }
-
-#hero .nav-link:hover {
-    background-color: brown;
-    padding: 1rem;
-    color: rgb(202, 155, 37);
-}
+/* ................................................................. */
 
 .hero-content {
     height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
 
+.hero-header {
+    position: fixed;
+    width: 89rem;
+    text-align: center;
+    background-color: rgb(202, 155, 37);
+    height: 3rem;
+    margin-top: -.7px;
+    z-index: 90;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    margin: 1rem .5rem;
+    margin-top: 1rem;
+}
+
+.nav-link:hover {
+    background-color: brown;
+    padding: 1rem;
+    color: rgb(202, 155, 37);
+}
+
+.home {
+    padding: 1rem;
+}
+.home-icon {
+    width: 2rem;
+    position: relative;
+    top: .4rem;
+    left: .2rem;
+}
+
+.hero-description {
+    padding: 1rem;
+    width: 40rem;
+}
+
+.hero-title, .hero-subtitle {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.hero-title {
+    position: relative;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.hero-img {
+    width: 20rem;
+    box-shadow: rgb(202, 155, 37), 1px, 1px, 1px;
+}
+
+.hero-btn {
+    padding: 1rem 2rem;
+    background-color: rgb(222, 214, 194);
+    color: brown;
+    font-size: 1rem;
+    font-style:oblique;
+    position: relative;
+    top: 4rem;
+    left: 10rem;
+    border: .2rem solid black;
+    border-radius: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hero-btn:hover {
+    padding: 1rem 2rem;
+    background-color: brown;
+    color: rgb(202, 155, 37);
+    font-size: 1rem;
+    font-style:oblique;
+    cursor: pointer;
+    position: relative;
+    top: 4rem;
+    left: 10rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: rgb(202, 155, 37) 0px 5px 15px;
+}
+/* comment line 1  */
+
+/* start comment line 2 */
+
+#about { 
+    background-color: rgb(202, 155, 37);
+    margin: 0 -15rem;
+    padding: 1rem 15rem;  
+}
+.about-title {
+    padding: 3rem 1rem 1rem;
+    color: brown;
+    line-height: 4rem;
+}
+.about-title span {
+    font-size: 7rem;
+    display: block;
+}
+.about-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+.abt-img {
+    width: 25rem;
+    margin: 0 1rem;
+}
+
+.about-descriptions {
+    background-color: antiquewhite;
+    border-radius: 5rem;
+    padding: 1rem;
+    margin: 0 0 0 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-texts {
+    font-size: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 0 2rem 1rem;
+}
+
+
+.bold {
+    background-color: brown;
+    font-size: 2rem;
+    display: block;  
+}
+.skills-content {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.skills-name {
+   text-align: center;
+   font-weight: 800;
+}
+.skills-img {
+    width: 5rem;
 }
