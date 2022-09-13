@@ -255,6 +255,7 @@ section h1{
     height: 70vh;
     border: .2rem solid brown;
     border-right: none;
+    border-left: none;
 }
 
 .info-title {
