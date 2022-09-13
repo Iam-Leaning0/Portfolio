@@ -7,7 +7,8 @@
 html, body {
     font-family:'Courier New', Courier, monospace;
     font-size: 1rem;
-    background: antiquewhite;;
+    background: antiquewhite;
+    font-weight: 600;
 }
 
 img {
@@ -21,7 +22,6 @@ section h1{
 .page-container {
     display: grid;
     padding: 0 15rem;
-    border: 1px solid red
 }
 
 .inline-icon {
@@ -42,7 +42,7 @@ section h1{
     width: 89rem;
     text-align: center;
     background-color: rgb(202, 155, 37);
-    height: 3rem;
+    height: 3.2rem;
     margin-top: -.7px;
     z-index: 90;
 }
@@ -58,6 +58,7 @@ section h1{
 .nav-link:hover {
     background-color: brown;
     padding: 1rem;
+    margin-bottom: 1rem;
     color: rgb(202, 155, 37);
 }
 
@@ -173,11 +174,13 @@ section h1{
     border: 2px solid antiquewhite;
 }
 .bold {
-    font-size: 1.4rem;
-    font-weight: 800; 
-    width: 34rem;
-    padding: 1rem 0 0 1rem;
-    border-bottom: 2px solid ;
+    font-size: 1.6rem;
+    font-weight: 1200; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    width: 33rem;
+    padding: 1rem 0 1rem 1rem;
+    border-bottom: 2px solid antiquewhite ;
     
 }
 .skills-content {
@@ -188,10 +191,12 @@ section h1{
 }
 .skills-name {
    text-align: center;
-   font-weight: 800;
+   font-weight: 1000;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.5rem;
 }
 .skills-img {
-    width: 5rem;
+    width: 4.5rem;
 }
 /* ****************************************** */
 
@@ -238,7 +243,7 @@ section h1{
 
 .long {
     position: absolute;
-    top: 2315px;
+    top: 2429px;
     right: 6rem;
     width: 12rem;
     z-index: 80;
@@ -251,11 +256,16 @@ section h1{
     border: .2rem solid brown;
     border-right: none;
 }
+
+.info-title {
+    padding-left: 5rem;
+}
 .contacts-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     padding: 1rem;
+    padding-left: 5rem;
 
 }
 
@@ -264,7 +274,7 @@ section h1{
     font-weight: 600;
     line-height: 2;
     padding: 1rem;
-    margin-right: 4rem;
+    
 }
 
 .message {
@@ -280,7 +290,7 @@ section h1{
     margin: 1rem;
     width: 25rem;
     border-radius: 1rem;
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(202, 155, 37);
 }
 
 .fname, .email,.form-btn {
@@ -299,9 +309,16 @@ section h1{
     height:3rem;
     padding: 1rem;
     border-radius: 1rem;
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(202, 155, 37);
 }
 
+input:hover::placeholder {
+    color: transparent;
+  }
+
+textarea:hover::placeholder {
+    color: transparent;
+  }
 .form-btn {
     background-color: black;
     color: antiquewhite;
@@ -316,14 +333,19 @@ section h1{
     width: 10rem;
     margin: 0 30%;
     border: 2px solid rgb(202, 155, 37);
+    cursor:context-menu;
 }
 
 /* ************** */
 
 .page-footer {
     background: black;
-    color: brown;
+    color: antiquewhite;
     text-align: center;
-    padding: 1rem;
+    padding: .5rem 0;
+}
+
+.copyright {
+    color: brown;
 }
 
