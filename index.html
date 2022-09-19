@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
 </head>
 <body>
@@ -14,8 +15,7 @@
                 
                 <nav class="navbar">
                     <a class="nav-link home" href="#hero">
-                      <img class="home-icon" 
-                      src="/images/homepage-icon.svg" />
+                    <i class="fa fa-home"></i>
                     </a>
                     <a class="nav-link" href="#about">About Me</a>
                     <a class="nav-link" href="#info">Why This Page?</a>
@@ -45,17 +45,19 @@
             </div>
         </section>
         <section id="about" class="page-item">
-            <h1 class="about-title">
+            <h1 class="title">
                 <span class="special">
                     About
-                </span>Me:</h1>
+                </span>
+                <div class="underline">Me</div></h1>
             <div class="about-contents">
                 <img src="/images/minions.png" alt="" class="abt-img">
                 <div class="about-descriptions">
-                    <p class="about-texts">Uhm!!!....
-                        <br> I am  a Web Developer.... <br>Not yet  an Expert in the field buh i am going places
-                        <span class="inline-icon">&#128526</span>
-                        .... You can ask the minions, my favorites (You can see them on the left,
+                    <p class="about-texts">Uhm!!!....<br>
+                        I am  a Web Developer.... <br>
+                        Not yet  an Expert in the field buh i am going places man
+                        <span class="inline-icon">&#128526</span><br>
+                        You can ask the minions, my favorites (You can see them on the left
                         <span class="inline-icon">&#128517)</span> 
                         <br> <br>
                         I am from Rwanda<span class="inline-icon">&#x1f1f7</span> <br>
@@ -101,10 +103,11 @@
             
         </section>
         <section id="info" class="page-item">
-            <h1 class="info-title">
+            <h1 class="title">
                 <span class="special">
                    Why
-                </span>This Page?</h1>
+                </span>
+                <div class="underline">This Page?</div></h1>
             <div class="info-contents">
                 <img src="images/Stuarts.png"
                 class="info-image" />
@@ -118,20 +121,47 @@
         <img class="long" 
                 src="/images/pngegg.png">
         <section id="contacts" class="page-item">
-            <h1 class="info-title">
+            <h1 class="title">
                 <span class="special">
                    Contact
-                </span>Me</h1>
+                </span>
+                <div class="underline">Me</div></h1>
                 <div class="contacts-content">
                     <p class="contacts-text">Got anything in your mind? <br>Be it a Question or Suggestion? <br> Or you wanna Just Chat? <br>
-                    Hey I'm up of anything just send me an email 
+                    Hey, I'm up fo anything just send me an email 
                     <span class="inline-icon">&#128073</span></p>
-                    <form action="mailto:ntwalipit@gmail.com" method="get" enctype="multipart/form-data" class="contact-form">
+                    <form action="mailto:ntwalipit@gmail.com" method="post" enctype="multipart/form-data" class="contact-form">
                         <input type="text" placeholder="Enter your name" id="name" class="fname" required/>
                         <input type="email" placeholder="Enter your email" id="name" class="email" required/>
                         <textarea name="message" id="message" class="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
                         <input type="submit" id="submit" class="form-btn" value="Send Your message"/>
                     </form>
+                </div>
+    
+                <div class="social-links">
+                    <p>Follow me on my SOCIAL NETWORKS: </p>
+                    <span class="social-icons">
+                        <a class="social-icon"
+                        href="http://twitter.com/" 
+                        target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a class="social-icon"
+                        href="http://twitter.com/" 
+                        target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a>    
+                        <a class="social-icon"
+                        href="http://twitter.com/" 
+                        target="_blank">
+                            <i class="fa fa-telegram"></i>
+                        </a>
+                        <a class="social-icon"
+                        href="http://twitter.com/" 
+                        target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>           
+                    </span>
                 </div>
         </section>
     </div> 

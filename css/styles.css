@@ -16,7 +16,7 @@ img {
 }
 
 section h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .page-container {
@@ -26,6 +26,20 @@ section h1{
 
 .inline-icon {
     font-size: 1.2rem;
+}
+
+.title {
+    padding: 3rem 1rem 1rem;
+    color: brown;
+    line-height: 4rem;
+}
+.title span {
+    font-size: 7rem;
+    display: block;    
+}
+
+.underline {
+    text-decoration: underline;
 }
 /* ................................................................. */
 
@@ -42,34 +56,25 @@ section h1{
     width: 89rem;
     text-align: center;
     background-color: rgb(202, 155, 37);
-    height: 3.2rem;
     margin-top: -.7px;
     z-index: 90;
+    padding: 1rem 0;
 }
 
 .nav-link {
     text-decoration: none;
     color: black;
-    padding: 1rem;
-    margin: 1rem .5rem;
-    margin-top: 1rem;
+    padding: 1rem .5rem;
+
 }
 
 .nav-link:hover {
     background-color: brown;
-    padding: 1rem;
-    margin-bottom: 1rem;
     color: rgb(202, 155, 37);
 }
 
-.home {
-    padding: 1rem;
-}
-.home-icon {
-    width: 2rem;
-    position: relative;
-    top: .4rem;
-    left: .2rem;
+.nav-link .fa {
+    font-size: 1.2rem;
 }
 
 .hero-description {
@@ -130,15 +135,7 @@ section h1{
     margin: 0 -15rem;
     padding: 1rem 15rem;  
 }
-.about-title {
-    padding: 3rem 1rem 1rem;
-    color: brown;
-    line-height: 4rem;
-}
-.about-title span {
-    font-size: 7rem;
-    display: block;
-}
+
 .about-contents {
     display: flex;
     flex-direction: row;
@@ -204,17 +201,8 @@ section h1{
     position: relative;
     background-color: rgb(202, 155, 37);
     margin: 0 -15rem;
-    padding: 2rem 15rem;  
-}
-.info-title {
-    padding: 3rem 1rem 1rem;
-    color: brown;
-    line-height: 4.5rem;
-    
-}
-.info-title span {
-    font-size: 7rem;
-    display: block;
+    padding: 2rem 15rem; 
+    z-index: 10; 
 }
 .info-contents {
     display: flex;
@@ -243,29 +231,25 @@ section h1{
 
 .long {
     position: absolute;
-    top: 2429px;
+    top: 150.7rem;
     right: 6rem;
     width: 12rem;
-    z-index: 80;
+    z-index: 0;
 }
-
+/* ----------------------------= */
 #contacts {
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: auto;
     border: .2rem solid brown;
     border-right: none;
     border-left: none;
 }
 
-.info-title {
-    padding-left: 5rem;
-}
 .contacts-content {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 1rem;
     padding-left: 5rem;
 
 }
@@ -275,7 +259,7 @@ section h1{
     font-weight: 600;
     line-height: 2;
     padding: 1rem;
-    
+
 }
 
 .message {
@@ -296,21 +280,29 @@ section h1{
 
 .fname, .email,.form-btn {
     display: block;
-    margin: 1rem;
+    margin: 0 1rem;
     width: 25rem;
     height:3rem;
     padding: 1rem;
     border-radius: 1rem;
     border: 2px solid brown;
 }
+
+.fname {
+    margin-bottom: 1rem;
+}
 .fname:hover, .email:hover {
     display: block;
-    margin: 1rem;
+    margin: 0 1rem;
     width: 25rem;
     height:3rem;
     padding: 1rem;
     border-radius: 1rem;
     border: 2px solid rgb(202, 155, 37);
+}
+
+.fname:hover {
+    margin-bottom: 1rem;
 }
 
 input:hover::placeholder {
@@ -320,11 +312,13 @@ input:hover::placeholder {
 textarea:hover::placeholder {
     color: transparent;
   }
+
 .form-btn {
     background-color: black;
     color: antiquewhite;
     width: 10rem;
     margin: 0 30%;
+    margin-bottom: 1rem;
     border: 2px solid brown;
 }
 
@@ -333,10 +327,48 @@ textarea:hover::placeholder {
     color:black;
     width: 10rem;
     margin: 0 30%;
+    margin-bottom: 1rem;
     border: 2px solid rgb(202, 155, 37);
     cursor:context-menu;
 }
 
+.social-links {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 7rem;
+    margin-right: 46rem;
+    padding: .3rem;
+    padding-left: 2rem;
+    border-top: 2px solid brown;
+}
+
+.social-links p {
+    display: inline;
+    color: brown;
+    font-size: 1rem;
+}
+.social-icons a {
+    text-decoration: none; 
+    font-size: 2.4rem;  
+}
+.social-icon .fa{
+    font-size: 1.5rem;
+    background-color:antiquewhite;
+    color: rgb(202, 155, 37)
+}
+
+.fa-instagram:hover {
+    color:orangered;
+}
+.fa-github:hover {
+    color:black;
+}
+.fa-telegram:hover {
+    color: #0088cc;
+}
+.fa-twitter:hover {
+    color: #1da1f2;
+}
 /* ************** */
 
 .page-footer {
