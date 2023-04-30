@@ -215,7 +215,7 @@ header {
 }
 
 .hero__description img {
-    width: 20%;
+    width: 35%;
     display: inline-block;
     object-fit: contain;
     border-bottom: 2px solid rgba(0, 0, 0, 0.174);
@@ -628,6 +628,10 @@ header {
     }
 
     .hero__img {
+        width: 40%;
+    }
+
+    .hero__description img {
         width: 40%;
     }
 
