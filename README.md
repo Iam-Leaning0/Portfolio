@@ -1,1 +1,8 @@
-# Landing-Page
+# Portifolio 👨🏾‍💻
+
+##Technologies:
+👉🏾 HTML
+👉🏾 CSS
+
+😊
+
