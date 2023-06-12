@@ -14,7 +14,7 @@
     --max-width: 1024px;
     --width: 90%;
     --center: 0 auto;
-    --transition: .15s ease;
+    --transition: all .3s ease;
 
     /* === colors === */
     --primary-color: #ca9b25;
