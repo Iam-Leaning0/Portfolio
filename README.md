@@ -1,8 +1,11 @@
 # Portifolio 👨🏾‍💻
 
-##Technologies:
-👉🏾 HTML
-👉🏾 CSS
+Hi 🙋🏾‍♂️, Welcome to my portfolio repo 😊.
+
+## Technologies used:
+
+- 👉🏾 HTML
+- 👉🏾 CSS
+- 👉🏾 Vanilla Javascript
 
 😊
-
