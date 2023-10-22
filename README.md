@@ -1,4 +1,4 @@
-# Portifolio Website👨🏾‍💻
+# Portfolio Website👨🏾‍💻
 
 Hi 🙋🏾‍♂️, Welcome to my portfolio repository 😊.
 
