@@ -1,6 +1,7 @@
 # Portfolio Website👨🏾‍💻
 
-Hi 🙋🏾‍♂️, Welcome to my portfolio repository 😊.
+Hi 🙋🏾‍♂️,
+Welcome to my portfolio repository 😊.
 
 ## Technologies used:
 
